@@ -1,0 +1,179 @@
+body{
+    font-family: 'Poppins', sans-serif;font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.nav-heading{
+    margin: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.nav-links{
+    margin: 1rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #18181B;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+.nav-links a:hover{
+    color: #0EA5E9;
+}
+
+@media (max-width: 768px){
+    
+    .nav{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .nav-heading{
+        margin: 0.5rem 0 0 0;
+        
+    }
+    
+    .nav-links{
+        margin: 0.25rem;
+    }
+     
+
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.hero-data{
+    width: 50%;
+    padding: 4.5rem 0 0 4rem;
+    margin: 1rem;
+}
+
+.hero-img{
+    width: 50%;
+      margin: 1rem;
+}
+
+.hero-img img{
+    width: 400px;
+    padding-left: 8rem;
+}
+
+.hero-data-heading{
+    font-size: 1rem;
+    color: #0EA5E9;
+}
+
+.hero-data-heading-2{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.highlight{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FDE047 60%);
+}
+
+
+.form-group{
+    margin-top: 2rem;
+}
+
+.form{
+    
+    width: 40%;
+    padding: 7px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+    color: #3F3F46;
+    border: 1px solid #A1A1AA;
+    
+    
+}
+
+button{
+    display: inline-block;
+    text-align: center;
+    padding: 7px 7px;
+    line-height: 25px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+    border: 0;
+    color: #3F3F46;
+    background-color: #0EA5E9;
+    color: white;
+    
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+        padding: 0rem 0.5rem ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+    }
+    .hero-data{
+        width: 100%;
+        padding: 0;
+        margin: 2rem auto;
+    }
+    
+    .hero-data-heading-2{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .hero-img{
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .hero-img img{
+        width: 290px;
+        padding-left: 0;
+    } 
+    
+  } 
+
+
+a{
+    
+    color: #18181B;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    
+}
+
+.credit{
+    
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto 0rem auto;
+    max-width: 500px;
+}
